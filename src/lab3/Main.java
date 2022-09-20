@@ -230,7 +230,7 @@ public class Main extends javax.swing.JFrame {
         String h = "";
         for (String c1 : Resultados) {
             if(Hb.contains(c1)){
-                h = "-" + c1;
+                h = h +"-" + c1;
             }
         }
         
